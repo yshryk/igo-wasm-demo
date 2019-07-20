@@ -6,8 +6,8 @@ Rustで書いた [igo-rs crate](https://crates.io/crates/igo-rs) を
 [wasm-pack](https://rustwasm.github.io/wasm-pack/) を利用して簡単にWebAssembly化して、
 外部APIを使用する事なくWebブラウザ上で日本語形態素解析を行うデモです。
 
-次のURLからオンラインで試す事ができます。このデモページのソースはディレクトリ www 以下に入っています。 
-ビルド結果は docs 以下にあります。
+次のURLからオンラインで試す事ができます。このデモページのソースはディレクトリ [www](www) 以下に入っています。 
+ビルド結果は [docs](docs) 以下にあります。
 
 https://yshryk.github.io/igo-wasm-demo/
 
@@ -36,6 +36,6 @@ Webブラウザで http://localhost:8080/ を開いて結果を確認します�
 
 ソースコード部分は MIT OR Apache-2.0 です。
 
-辞書ファイル ipadic.zip.br については、IPADICのライセンス(NOTICE.md)を参照してください。
+辞書ファイル ipadic.zip.br については、IPADICのライセンス ([NOTICE.md](NOTICE.md))を参照してください。
 
 
