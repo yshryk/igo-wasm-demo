@@ -1,3 +1,5 @@
+[![npm version](https://badge.fury.io/js/%40yshryk%2Figo-wasm-demo.svg)](https://badge.fury.io/js/%40yshryk%2Figo-wasm-demo)
+
 # igo-rs WebAssembly Demo
 
 Rustで書いた [igo-rs crate](https://crates.io/crates/igo-rs) を
