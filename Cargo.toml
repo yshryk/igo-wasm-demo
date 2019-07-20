@@ -5,7 +5,7 @@ authors = ["yasuhara <yasuhara@gmail.com>"]
 readme = "README.md"
 edition = "2018"
 license = "MIT OR Apache-2.0"
-repository = "https://bitbucket.org/igo-wasm-demo/igo-rs"
+repository = "https://github.com/yshryk/igo-wasm-demo.git"
 description = "igo-rs WebAssembly Demo"
 exclude = [
   "*.iml",
