@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>igo-rs WebAssembly Demo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" integrity="sha256-vK3UTo/8wHbaUn+dTQD0X6dzidqc5l7gczvH+Bnowwk=" crossorigin="anonymous" />
+  </head>
+  <body>
+    <section class="section">
+      <div class="container">
+        <h1 class="title">igo-rs WebAssembly Demo</h1>
+
+        <p>Rustで書いた <a target="_blank" href="https://crates.io/crates/igo-rs">igo-rs crate</a> を
+          <a target="_blank" href="https://rustwasm.github.io/wasm-pack/">wasm-pack</a> を利用して簡単にWebAssembly化して、
+        外部APIを使用する事なくWebブラウザ上で日本語形態素解析を行うデモです。</p>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="field">
+          <label class="label">入力テキスト</label>
+          <div class="control is-expanded">
+            <textarea id="textInput" class="textarea"></textarea>
+          </div>
+        </div>
+
+
+        <label class="label">解析結果</label>
+        <table class="table is-striped is-bordered">
+          <thead>
+            <tr><th>surface</th><th>feature</th></tr>
+          </thead>
+          <tbody id="results"></tbody>
+        </table>
+        <p id="comment">Loading...</p>
+
+      </div>
+    </section>
+
+    <script src="./bootstrap.js"></script>
+  </body>
+</html>
