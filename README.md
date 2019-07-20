@@ -1,11 +1,13 @@
-#igo-rs WebAssembly Demo
+# igo-rs WebAssembly Demo
 
 Rustで書いた [igo-rs crate](https://crates.io/crates/igo-rs) を
 [wasm-pack](https://rustwasm.github.io/wasm-pack/) を利用して簡単にWebAssembly化して、
 外部APIを使用する事なくWebブラウザ上で日本語形態素解析を行うデモです。
 
-次のURLからオンラインで試す事ができます。このデモページのソースはディレクトリ www 以下に入っています。
+次のURLからオンラインで試す事ができます。このデモページのソースはディレクトリ www 以下に入っています。 
+ビルド結果は docs 以下にあります。
 
+https://yshryk.github.io/igo-wasm-demo/
 
 
 ## 🛠️ ビルド方法
