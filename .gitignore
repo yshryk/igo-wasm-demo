@@ -14,3 +14,5 @@
 .hgtags
 
 .idea/
+
+node_modules
